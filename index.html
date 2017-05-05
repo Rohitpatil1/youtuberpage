@@ -2,59 +2,39 @@
 <html>
 
 <head>
-    <title>*** YT Page</title>
+    <title>Youtuber***</title>
+    <link rel="stylesheet" href="md/material.min.css">
+    <script src="md/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-red.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta charset="utf-8">
 </head>
 
 <body>
-    <!-- Uses a header that contracts as the page scrolls down. -->
-    <style>
-    .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
-        padding-right: 0;
-    }
-    </style>
-    <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--waterfall">
-            <!-- Top row, always visible -->
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">Title</span>
+                <span class="mdl-layout-title">Youtuber ***</span>
+                <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                  mdl-textfield--floating-label mdl-textfield--align-right">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
-                        <i class="material-icons">search</i>
-                    </label>
-                    <div class="mdl-textfield__expandable-holder">
-                        <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
-                    </div>
-                </div>
-            </div>
-            <!-- Bottom row, not visible on scroll -->
-            <div class="mdl-layout__header-row">
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-                <nav class="mdl-navigation">
-                    <!-- Flat button with ripple -->
-                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-                        Button
-                    </button>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">Inicio</a>
+                    <a class="mdl-navigation__link" href="">Contenido</a>
+                    <a class="mdl-navigation__link" href="">Subscriptores</a>
+                    <a class="mdl-navigation__link" href="">Contacto</a>
                 </nav>
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Title</span>
+            <span class="mdl-layout-title">***</span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Inicio</a>
+                <a class="mdl-navigation__link" href="">Contenido</a>
+                <a class="mdl-navigation__link" href="">Subscriptores</a>
+                <a class="mdl-navigation__link" href="">Contacto</a>
             </nav>
         </div>
         <main class="mdl-layout__content">
@@ -62,6 +42,11 @@
                 <!-- Your content goes here -->
             </div>
         </main>
+    </div>
+    </main> <a class="mdl-navigation__link" href="">Link</a>
+    <a class="mdl-navigation__link" href="">Link</a>
+    <a class="mdl-navigation__link" href="">Link</a>
+    <a class="mdl-navigation__link" href="">Link</a>
     </div>
 </body>
 

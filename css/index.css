@@ -1,3 +1,6 @@
 body {
-	background-color: pink;
+	background-color: #EFEFEF;
+}
+.mdl-button mdl-js-button mdl-js-ripple-effect {
+	text-align: center;
 }
