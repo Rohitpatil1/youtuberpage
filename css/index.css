@@ -5,6 +5,7 @@ body {
 .bz {
     display: none;
 }
+.material-icons.white { color: #ffffff; }
 
 @media (max-width: 360px) {
     #sz {
