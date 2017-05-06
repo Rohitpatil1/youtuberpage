@@ -1,6 +1,9 @@
 body {
 	background-color: #EFEFEF;
 }
-.mdl-button mdl-js-button mdl-js-ripple-effect {
-	text-align: center;
+mdl-layout__drawer {
+	display: none;
+}
+#sub {
+	padding-right: 10px;
 }
