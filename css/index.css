@@ -1,14 +1,16 @@
 body {
-	background-color: #EFEFEF;
+    background-color: #EFEFEF;
+}
+
+.bz {
+    display: none;
 }
 
 @media (max-width: 360px) {
-  #sz{
-  	display: none;
-  }
-}
-@media (min-width: 359px) {
-  #bz{
-  	display: none;
-  }
+    #sz {
+        display: none;
+    }
+    .bz {
+        display: block;
+    }
 }
