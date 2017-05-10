@@ -4,8 +4,10 @@
 <head>
     <title>Youtuber***</title>
     <meta name="theme-color" content="#FF5252">
+    <!-- Color para chrome mobile -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!-- Normalize -->
+    <script src="config/channel.js"></script>
     <link rel="stylesheet" href="md/material.min.css">
     <!-- Todo el material design -->
     <script src="md/material.min.js"></script>
@@ -30,7 +32,7 @@
                 <br>
                 <br>
                 <!-- Botón de subscribirse (segundo color) (desaparece en pantallas -360px-->
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="sz"><b>Subscribirse</b>
+                <button onclick="channelredirect()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="sz"><b>Subscribirse</b>
                 </button>
             </div>
         </header>
@@ -60,7 +62,6 @@
                             <li><a href="https://raw.githubusercontent.com/LekamDeveloper/youtuberpage/master/LICENSE">License</a></li>
                             <li><a href="CHANGELOG.MD">Changelog</a></li>
                             <!-- Espacio -->
-                            <div class="spacer"></div>
                             <li><a href="https://github.com/LekamDeveloper/youtuberpage"><i class="new-material-icons"><img alt="Github" src="images/Github/blanco.png"></i></a></li>
                             <li><a href="https://github.com/LekamDeveloper/youtuberpage/issues/new"><i class="new-material-icons w"><img src="images/bug.png" alt="Reporta un bug"></i></a></li>
                         </ul>
