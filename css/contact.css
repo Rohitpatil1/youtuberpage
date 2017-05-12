@@ -1,0 +1,20 @@
+.content-nofoot {
+	display: inline-table;
+}
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+.twitter > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../images/contact/twitter.jpg') center / cover;
+}
+.youtube > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../images/contact/youtube.jpg') center / cover;
+}
+

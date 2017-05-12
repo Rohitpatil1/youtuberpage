@@ -14,19 +14,6 @@ body {
 .content-nofoot {
 	padding: 5%;
 }
-.demo-card-wide.mdl-card {
-    width: 512px;
-}
-
-.twitter > .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    background: url('../images/contact/prueba.jpg') center / cover;
-}
-
-.demo-card-wide > .mdl-card__menu {
-    color: #fff;
-}
 
 @media (max-width: 360px) {
     #sz {
