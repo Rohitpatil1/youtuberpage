@@ -44,3 +44,10 @@ mailtoemail = "mailto:minemuncorreo@gmail.com" // El correo electronico con mail
 function sendemail() {
 	window.location =mailtoemail;
 }
+
+// FACEBOOK
+facebook = "#" // Link a facebook
+tipo = "grupo" // Escribe si es "grupo" o si es "pagina"
+function facebookredirect() {
+	window.location =facebookredirect;
+}

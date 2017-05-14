@@ -29,3 +29,6 @@
 .email > .mdl-card__title {
     background: url('../images/contact/email.jpg') center / cover;
 }
+.facebook > .mdl-card__title {
+    background: url('../images/contact/facebook.jpg') center / cover;
+}
