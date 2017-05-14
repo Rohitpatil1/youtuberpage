@@ -26,3 +26,6 @@
 .twitch > .mdl-card__title {
     background: url('../images/contact/twitch.jpg') center / cover;
 }
+.email > .mdl-card__title {
+    background: url('../images/contact/email.jpg') center / cover;
+}

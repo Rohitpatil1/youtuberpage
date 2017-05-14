@@ -37,3 +37,10 @@ function twitchredirect() {
 function twitchsub() {
 	window.location =twitchsub; //Redireccionamiento a la página de subscripción de twitch
 }
+
+// EMAIL
+email = "minemuncorreo@gmail.com" // El correo electronico
+mailtoemail = "mailto:minemuncorreo@gmail.com" // El correo electronico con mailto: (ejemplo: "mailto:hola@gmou.yp")
+function sendemail() {
+	window.location =mailtoemail;
+}
