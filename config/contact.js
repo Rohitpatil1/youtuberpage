@@ -23,7 +23,17 @@ function twitterredirect() {
 
 
 // PATREON
-patreon = "#"; // Link del twitter al que redirigir
+patreon = "#"; // Link del patreon al que redirigir
 function patreonredirect() {
     window.location =patreon; //Redireccionamiento al patreon seleccionado
+}
+
+// TWITCH 
+twitch = "#"; // Link del twitch al que redirigir
+twitchsub = "#" // Link de subscripción en twitch
+function twitchredirect() {
+    window.location =twitch; //Redireccionamiento al twitch seleccionado
+}
+function twitchsub() {
+	window.location =twitchsub; //Redireccionamiento a la página de subscripción de twitch
 }
