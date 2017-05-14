@@ -1,11 +1,22 @@
 .content-nofoot {
-/*	display: none;*/
+	display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .demo-card-wide.mdl-card {
     width: 512px;
     flex-direction: column;
-    margin-bottom: 3%;
     text-align: center;
+    margin: 1.5%;
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
