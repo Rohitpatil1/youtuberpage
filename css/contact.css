@@ -35,3 +35,6 @@
 .google > .mdl-card__title {
     background: url('../images/contact/google.jpg') center / cover;
 }
+.reddit > .mdl-card__title {
+    background: url('../images/contact/reddit.jpg') center / cover;
+}

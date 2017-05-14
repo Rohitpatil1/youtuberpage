@@ -29,12 +29,12 @@ function patreonredirect() {
 }
 
 // TWITCH 
-twitch = "#"; // Link del twitch al que redirigir
+twitch = "https://www.twitch.tv/lekamyt"; // Link del twitch al que redirigir
 twitchsub = "#" // Link de subscripción en twitch
 function twitchredirect() {
     window.location =twitch; //Redireccionamiento al twitch seleccionado
 }
-function twitchsub() {
+function twitchsubr() {
 	window.location =twitchsub; //Redireccionamiento a la página de subscripción de twitch
 }
 
@@ -56,4 +56,10 @@ function facebookredirect() {
 google = "https://plus.google.com/u/0/100636659828176968009" // Link a Google +
 function googleredirect() {
 	window.location =google;
+}
+
+// REdDIT
+reddit = "#" // Link a Reddit
+function redditredirect() {
+	window.location =reddit;
 }
