@@ -1,20 +1,26 @@
 .content-nofoot {
-	display: inline-table;
+/*	display: none;*/
 }
 .demo-card-wide.mdl-card {
     width: 512px;
+    flex-direction: column;
+    margin-bottom: 3%;
+    text-align: center;
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
 }
-.twitter > .mdl-card__title {
-    color: #fff;
+.demo-card-wide > .mdl-card__title {
+	color: #fff;
     height: 176px;
+}
+.twitter > .mdl-card__title {
     background: url('../images/contact/twitter.jpg') center / cover;
 }
 .youtube > .mdl-card__title {
-    color: #fff;
-    height: 176px;
     background: url('../images/contact/youtube.png') center / cover;
+}
+.patreon > .mdl-card__title {
+    background: url('../images/contact/patreon.jpg') center / cover;
 }
 

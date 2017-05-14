@@ -9,6 +9,8 @@
     <!-- Normalize -->
     <script src="config/channel.js"></script>
     <!-- JS para el channel -->
+    <script src="config/contact.js"></script>
+    <!-- JS para el contact -->
     <link rel="stylesheet" href="md/material.min.css">
     <!-- Todo el material design -->
     <script src="md/material.min.js"></script>
@@ -88,7 +90,7 @@
                             <button id="yshop" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons shop">shopping_cart</i></button>
                             <!-- Compras incluidas -->
                             <div class="mdl-tooltip mdl-tooltip--large" for="yshop">
-                                Ofrece compras en la web
+                                Compras integradas en la web
                             </div>
                             <button id="yenterprise" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">business_center</i></button>
                             <!-- Revisado frecuentemente -->
@@ -114,7 +116,115 @@
                     </div>
                     <!-- Fin youtube -->
                     <!-- Twitter -->
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp twitter">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Twitter</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Si ese lugar en el que expreso mi opinión en mensajitos de 140 caracteres, eso nos ha hecho mucho daño a los desarrolladores...
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a onclick="twitterredirect()" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Follow</a>
+                        </div>
+                        <div class="mdl-card__menu">
+                            <button id="trevisar" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">done_all</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="trevisar">
+                                Revisado frequentemente
+                            </div>
+                            <button id="ttranslate" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons translate">translate</i></button>
+                            <!-- Disponible en varios idiomas -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="ttranslate">
+                                Atención en varios idiomas
+                            </div>
+                            <button id="tmoney" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">monetization_on</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tmoney">
+                                Monetización activada
+                            </div>
+                            <button id="tshop" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons shop">shopping_cart</i></button>
+                            <!-- Compras incluidas -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tshop">
+                                Compras integradas en la web
+                            </div>
+                            <button id="tenterprise" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">business_center</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tenterprise">
+                                Contacto para empresas
+                            </div>
+                            <button id="tprivado" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">security</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tprivado">
+                                Contacto privado
+                            </div>
+                            <button id="tverify" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">verified_user</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tverify">
+                                Usuario verificado
+                            </div>
+                            <button id="tglalos" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">cake</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="tglalos">
+                                Bromas y sarcasmo incluidas
+                            </div>
+                        </div>
+                    </div>
                     <!-- Fin twitter -->
+                    <!-- Patreon -->
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp patreon">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Patreon</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Por desgracia YouTube no me da lo suficiente como para seguir subiendo vídeos regularmente, por eso Patreon es una manera de que me apoyeis a cambio de premios.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a onclick="patreonredirect()" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Apoyar</a>
+                        </div>
+                        <div class="mdl-card__menu">
+                            <button id="previsar" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">done_all</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="previsar">
+                                Revisado frequentemente
+                            </div>
+                            <button id="ptranslate" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons translate">translate</i></button>
+                            <!-- Disponible en varios idiomas -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="ptranslate">
+                                Atención en varios idiomas
+                            </div>
+                            <button id="pmoney" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">monetization_on</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="pmoney">
+                                Monetización activada
+                            </div>
+                            <button id="pshop" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons shop">shopping_cart</i></button>
+                            <!-- Compras incluidas -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="pshop">
+                                Compras integradas en la web
+                            </div>
+                            <button id="penterprise" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">business_center</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="penterprise">
+                                Contacto para empresas
+                            </div>
+                            <button id="pprivado" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">security</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="pprivado">
+                                Contacto privado
+                            </div>
+                            <button id="pverify" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">verified_user</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="pverify">
+                                Usuario verificado
+                            </div>
+                            <button id="pglalos" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">cake</i></button>
+                            <!-- Revisado frecuentemente -->
+                            <div class="mdl-tooltip mdl-tooltip--large" for="pglalos">
+                                Bromas y sarcasmo incluidas
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Patreon -->
                 </div>
                 <footer class="mdl-mini-footer">
                     <!-- Footer -->
