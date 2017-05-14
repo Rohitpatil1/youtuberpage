@@ -32,3 +32,6 @@
 .facebook > .mdl-card__title {
     background: url('../images/contact/facebook.jpg') center / cover;
 }
+.google > .mdl-card__title {
+    background: url('../images/contact/google.jpg') center / cover;
+}

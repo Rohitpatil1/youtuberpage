@@ -49,5 +49,11 @@ function sendemail() {
 facebook = "#" // Link a facebook
 tipo = "grupo" // Escribe si es "grupo" o si es "pagina"
 function facebookredirect() {
-	window.location =facebookredirect;
+	window.location =facebook;
+}
+
+// GOOGLE +
+google = "https://plus.google.com/u/0/100636659828176968009" // Link a Google +
+function googleredirect() {
+	window.location =google;
 }
