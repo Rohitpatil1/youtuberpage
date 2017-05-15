@@ -5,6 +5,9 @@ body {
 }
 footer {
     vertical-align: bottom;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 .bz {
     display: none;
