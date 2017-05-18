@@ -1,17 +1,42 @@
 // YOUTUBE
-youtube = true; // Mostrar Youtube
-yrevisar = true; // Revisado frequentemente
-ytranslate = true; // Atención en varios idiomas
-ymoney = false; // Monetizado
-yshop = false; // Es una tienda donde comprar articulos
-yenterprise = false; // Medio de contacto con empresas
-yprivado = false; // Medio privado
-yverify = false; // Usuario verificado (se honesto)
-yglalos = true; // ¿Hay chistes y sarcasmo?
+jyoutube = true; // Mostrar Youtube
+jyrevisar = true; // Revisado frequentemente
+jytranslate = true; // Atención en varios idiomas
+jymoney = false; // Monetizado
+jyshop = false; // Es una tienda donde comprar articulos
+jyenterprise = false; // Medio de contacto con empresas
+jyprivado = false; // Medio privado
+jyverify = false; // Usuario verificado (se honesto)
+jyglalos = true; // ¿Hay chistes y sarcasmo?
 
-if (yrevisar === false) {
-	document.getElementById("yrevisar").style.display = "none"; // Código de prueba
+
+
+// YOUTUBE CODE
+if (jyrevisar === false) {
+	document.getElementById("yrevisar").style.display = "none"; // Eliminar yrevisar
 }
+if (jytranslate === false) {
+	document.getElementById("ytranslate").style.display = "none"; // Eliminar ytranslate
+}
+if (jymoney === false) {
+	document.getElementById("ymoney").style.display = "none"; // Eliminar ymoney
+}
+if (jyshop === false) {
+	document.getElementById("yshop").style.display = "none"; // Eliminar yshop
+}
+if (jyenterprise === false) {
+	document.getElementById("yenterprise").style.display = "none"; // Eliminar yenterprise
+}
+if (jyprivado === false) {
+	document.getElementById("yprivado").style.display = "none"; // Eliminar yprivado
+}
+if (jyverify === false) {
+	document.getElementById("yverify").style.display = "none"; // Eliminar yverify
+}
+if (jyglalos === false) {
+	document.getElementById("yglalos").style.display = "none"; // Eliminar yglalos
+}
+// FIN YOUTUBE CODE
 
 
 
